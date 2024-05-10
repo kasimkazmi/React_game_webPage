@@ -11,11 +11,11 @@ const App = () => {
             lg: `"nav nav" "aside main"`,
           }}
         >
-          <GridItem area="nav" bg={"coral"}>
+          <GridItem area="nav" >
             <Navbar />
           </GridItem>
           <Show above="lg">
-            <GridItem area="aside" bg={"red"}>
+            <GridItem area="aside" border={1} bg={"red"}>
               <Main />
             </GridItem>
           </Show>
